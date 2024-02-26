@@ -6,6 +6,7 @@ import face_recognition
 import math
 
 
+
 def face_confidence(face_distance, face_match_threshold=0.6):
     range = (1.0 - face_match_threshold)
     linear_val = (1.0 - face_distance) / (range * 2.0)
@@ -79,11 +80,14 @@ class FaceRecognition:
                 bottom *= 4
                 left *= 4
 
-                cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 225), 2)
-                cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 0, 225), -1)
+                cv2.rectangle(frame, (left, top), (right, bottom), (0, 225, 0), 2)
+                cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 225, 0), -1)
                 cv2.putText(frame, name, (left + 6, bottom - 6), cv2.FONT_HERSHEY_DUPLEX, 0.85, (255, 255, 255), 1)
 
             cv2.imshow('Face Recognition', frame)
+
+
+
 
             if cv2.waitKey(1) == ord('q'):
                 break
