@@ -1,7 +1,7 @@
 # AI Face Recognition
 
-## Libraries Used: OpenCV and face_recognition
-## Programming Language Used: Python
+### Libraries Used: OpenCV and face_recognition
+### Programming Language Used: Python
 Trained Using: Images added into the folder 'faces'
 
 
