@@ -13,7 +13,7 @@ If the faces match, the name of the person is indicated on the screen!
 1) Clone the repository onto your personal computer
 2) Ensure that Python is installed
 3) Install OpenCV and face_recognition modules of Python
-4) Create a directory 'faces' and upload png images of faces that you would like to train the model with
+4) Into the directory 'faces', upload png images of faces that you would like to train the model with
 5) Set the camera device to '0' if using PC camera and '1' if using an external camera source
 6) Run the program
 
