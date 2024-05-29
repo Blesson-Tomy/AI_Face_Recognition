@@ -17,4 +17,5 @@ If the faces match, the name of the person is indicated on the screen!
 5) Set the camera device to '0' if using PC camera and '1' if using an external camera source
 6) Run the program
 
-P.S. Use editors such as Pycharm rather than VS Code for maximum efficiency. It might take some time to load if there are a large number of images uploaded.
+> [!IMPORTANT]
+> It might take some time to load if there are a large number of images uploaded.
