@@ -5,6 +5,10 @@ import numpy as np
 import face_recognition
 import math
 
+from os import system
+
+system('say Welcome to AI Facial Recognition System. Please wait while we initialise the project. This may take a few seconds depending on the number of faces to be trained.')
+
 
 
 def face_confidence(face_distance, face_match_threshold=0.6):
@@ -83,8 +87,10 @@ class FaceRecognition:
                 cv2.rectangle(frame, (left, top), (right, bottom), (0, 225, 0), 2)
                 cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 225, 0), -1)
                 cv2.putText(frame, name, (left + 6, bottom - 6), cv2.FONT_HERSHEY_DUPLEX, 0.85, (255, 255, 255), 1)
+                
 
             cv2.imshow('Face Recognition', frame)
+            #system(f'say {self.face_names}')
 
 
 
