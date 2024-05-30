@@ -17,17 +17,17 @@ If the faces match, the name of the person is indicated on the screen!
  ```bash
     Check the version:
     python3 -V 
-    ```
+ ```
 
 3) Install OpenCV and face_recognition modules of Python
 
  ```bash
     pip install opencv-python
-    ```
+ ```
 
  ```bash
     pip install face_recognition
-    ```
+ ```
 
 4) Into the directory 'faces', upload png images of faces that you would like to train the model with
 
