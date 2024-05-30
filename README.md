@@ -1,4 +1,4 @@
-# AI Face Recognition
+# AI Facial Recognition
 
 ### Libraries Used: OpenCV and face_recognition
 ### Programming Language Used: Python
@@ -14,8 +14,8 @@ If the faces match, the name of the person is indicated on the screen!
 
 2) Ensure that Python is installed
 
+--Check the version:
  ```bash
-    Check the version:
     python3 -V 
  ```
 
